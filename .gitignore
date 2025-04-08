@@ -1,0 +1,72 @@
+# Global
+.DS_Store
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.env
+.env.*
+user.name
+*.log
+logs/
+npm-debug.log*
+
+# Client 
+
+## compiled output
+client/node_modules
+client/secrets/
+client/dist
+
+## Logs
+client/logs/
+client/*.log
+client/npm-debug.log*
+client/*.local
+
+# Server
+
+## Maven
+server/target/
+build/
+server/build/
+
+server/logs/
+server/*.log
+server/*.local
+server/HELP.md
+server/!.mvn/wrapper/maven-wrapper.jar
+server/!**/src/main/**/target/
+server/!**/src/test/**/target/
+
+### STS ###
+server/.apt_generated
+server/.classpath
+server/.factorypath
+server/.project
+server/.settings
+server/.springBeans
+server/.sts4-cache
+
+### IntelliJ IDEA ###
+server/.idea
+server/*.iws
+server/*.iml
+server/*.ipr
+server/*.class
+
+### NetBeans ###
+server/nbproject/private/
+server/nbbuild/
+server/dist/
+server/nbdist/
+server/.nb-gradle/
+serverbuild/
+server!**/src/main/**/build/
+server!**/src/test/**/build/
