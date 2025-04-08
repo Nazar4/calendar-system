@@ -10,7 +10,7 @@ This repository contains both the **backend** (Spring Boot) and **frontend** (Vu
 
 ## Repository Structure
 
-- **backend/**: Java Spring Boot application.
+- **server/**: Java Spring Boot application.
 - **client/**: Vue 3 application with Vite.
 
 ## 1. Setting Up the Backend
@@ -27,15 +27,17 @@ This repository contains both the **backend** (Spring Boot) and **frontend** (Vu
    - Some seed data is included (see `V2__Insert_test_events.sql`).
 
 3. **Build & Run**  
-   - Navigate to the **backend** folder:
-     ```bash
-     cd backend
-     ```
    - Build and run with Maven:
+     # On Linux/Mac, from the server/ directory:
      ```bash
-     mvn clean install
-     mvn spring-boot:run
-     ```
+      ./mvnw clean install
+      ./mvnw spring-boot:run
+      ```
+      # On Windows:
+      ```bash
+      mvnw.cmd clean install
+      mvnw.cmd spring-boot:run
+      ```
    - By default, Spring Boot runs on **port 8080**. Verify at http://localhost:8080.  
 
 ## 2. Setting Up the Frontend
